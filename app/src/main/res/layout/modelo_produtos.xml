@@ -9,10 +9,11 @@
         android:orientation="vertical">
 
         <ImageView
+            android:scaleType="centerInside"
             android:id="@+id/modImagemProduto"
             android:layout_width="match_parent"
             android:layout_height="250dp"
-            android:src="#2c2c2c" />
+            android:src="@drawable/s24azul" />
 
         <TextView
             android:id="@+id/modTituloProduto"
