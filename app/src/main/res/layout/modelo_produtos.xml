@@ -18,7 +18,12 @@
             android:id="@+id/modTituloProduto"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Titulo do produto" />
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5sp"
+            android:fontFamily="@font/poppins_extrabold"
+            android:text="Titulo do produto"
+            android:textAlignment="center"
+            android:textSize="15sp" />
 
 
     </LinearLayout>
