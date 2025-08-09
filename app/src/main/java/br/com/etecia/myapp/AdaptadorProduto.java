@@ -32,7 +32,14 @@ public class AdaptadorProduto extends RecyclerView.Adapter<AdaptadorProduto.View
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-
+        holder.modTituloProduto.setText(lstProdutos.get(position).getTitulo());
+        holder.modImagemProduto.setImageResource(lstProdutos.get(position).getImagem());
+        holder.cardProdutos.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                return false;
+            }
+        });
     }
 
     @Override
